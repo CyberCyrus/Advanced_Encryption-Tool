@@ -1,0 +1,31 @@
+Title: Advanced Encryption Tool - User Guide
+
+Introduction
+
+Overview of the tool and its purpose.
+Installation
+
+Prerequisites:
+Python 3.8+
+Required libraries:
+Copy code
+pip install -r requirements.txt
+Packaging the application:
+bash
+Copy code
+pyinstaller --onefile gui/app_gui.py
+How to Use
+
+Encrypt a File:
+Launch the application.
+Enter a strong password.
+Click "Encrypt File" and select the file to encrypt.
+Save the encrypted file.
+Decrypt a File:
+Enter the same password used for encryption.
+Click "Decrypt File" and select the encrypted file.
+Save the decrypted file.
+Troubleshooting
+
+Invalid Password: Ensure the password matches the one used for encryption.
+Corrupted File: If the file was modified, decryption may fail.
